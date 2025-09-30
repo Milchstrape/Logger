@@ -1,0 +1,72 @@
+Start testing: Sep 30 15:35 CST
+----------------------------------------------------------
+1/1 Testing: LoggerTests
+1/1 Test: LoggerTests
+Command: "/home/zl/cpp_projects/Logger/build/runTests"
+Directory: /home/zl/cpp_projects/Logger/build
+"LoggerTests" start time: Sep 30 15:35 CST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from LoggerTest
+[ RUN      ] LoggerTest.BasicLogging
+2025-09-30 15:35:49 [INFO] 单元测试日志
+[       OK ] LoggerTest.BasicLogging (0 ms)
+[ RUN      ] LoggerTest.MultiThreadLogging
+2025-09-30 15:35:49 [INFO] 线程 0 日志 0
+2025-09-30 15:35:49 [INFO] 线程 0 日志 1
+2025-09-30 15:35:49 [INFO] 线程 0 日志 2
+2025-09-30 15:35:49 [INFO] 线程 0 日志 3
+2025-09-30 15:35:49 [INFO] 线程 0 日志 4
+2025-09-30 15:35:49 [INFO] 线程 0 日志 5
+2025-09-30 15:35:49 [INFO] 线程 0 日志 6
+2025-09-30 15:35:49 [INFO] 线程 0 日志 7
+2025-09-30 15:35:49 [INFO] 线程 0 日志 8
+2025-09-30 15:35:49 [INFO] 线程 0 日志 9
+2025-09-30 15:35:49 [INFO] 线程 2 日志 0
+2025-09-30 15:35:49 [INFO] 线程 2 日志 1
+2025-09-30 15:35:49 [INFO] 线程 2 日志 2
+2025-09-30 15:35:49 [INFO] 线程 2 日志 3
+2025-09-30 15:35:49 [INFO] 线程 2 日志 4
+2025-09-30 15:35:49 [INFO] 线程 2 日志 5
+2025-09-30 15:35:49 [INFO] 线程 2 日志 6
+2025-09-30 15:35:49 [INFO] 线程 2 日志 7
+2025-09-30 15:35:49 [INFO] 线程 2 日志 8
+2025-09-30 15:35:49 [INFO] 线程 1 日志 0
+2025-09-30 15:35:49 [INFO] 线程 1 日志 1
+2025-09-30 15:35:49 [INFO] 线程 3 日志 0
+2025-09-30 15:35:49 [INFO] 线程 1 日志 2
+2025-09-30 15:35:49 [INFO] 线程 1 日志 3
+2025-09-30 15:35:49 [INFO] 线程 1 日志 4
+2025-09-30 15:35:49 [INFO] 线程 1 日志 5
+2025-09-30 15:35:49 [INFO] 线程 3 日志 1
+2025-09-30 15:35:49 [INFO] 线程 2 日志 9
+2025-09-30 15:35:49 [INFO] 线程 1 日志 6
+2025-09-30 15:35:49 [INFO] 线程 1 日志 7
+2025-09-30 15:35:49 [INFO] 线程 1 日志 8
+2025-09-30 15:35:49 [INFO] 线程 1 日志 9
+2025-09-30 15:35:49 [INFO] 线程 3 日志 2
+2025-09-30 15:35:49 [INFO] 线程 3 日志 3
+2025-09-30 15:35:49 [INFO] 线程 3 日志 4
+2025-09-30 15:35:49 [INFO] 线程 3 日志 5
+2025-09-30 15:35:49 [INFO] 线程 3 日志 6
+2025-09-30 15:35:49 [INFO] 线程 3 日志 7
+2025-09-30 15:35:49 [INFO] 线程 3 日志 8
+2025-09-30 15:35:49 [INFO] 线程 3 日志 9
+[       OK ] LoggerTest.MultiThreadLogging (0 ms)
+[----------] 2 tests from LoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LoggerTests" end time: Sep 30 15:35 CST
+"LoggerTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 30 15:35 CST

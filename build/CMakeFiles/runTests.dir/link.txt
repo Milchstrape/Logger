@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/runTests.dir/tests/test_logger.cpp.o CMakeFiles/runTests.dir/src/Logger.cpp.o -o runTests  -lpthread /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
