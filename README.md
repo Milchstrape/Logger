@@ -52,9 +52,13 @@ ctest
 ## 技术要点
 
 C++17
+
 CMake 构建
+
 GoogleTest 单元测试
+
 线程同步（mutex, condition_variable）
+
 异步队列模型
 
 
